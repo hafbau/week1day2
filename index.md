@@ -36,3 +36,12 @@ How to work iteratively and incrementally. How to debug. How to manually test yo
 - it is posible for function to return something and have side effect at the same time (its preferabble to keep things simple though)
 - **Question:** is there a good time for functions to manipulate externally scoped variable? maybe when used as methods?
 - style: use camelCase for function naming
+
+
+## Breakout: Reading Code and Scopes in JS
+- watch out for overuse of global scopes (something about php?)
+  -risk to lose track of variable status
+- programs starts running in the global scope
+- `var` is limited by the functional scope that defines them
+- parameters are limited in the function scope
+- to get rid of a var variable (like garbage collection), set it to `undefined`. In JS this is unnecessary!
