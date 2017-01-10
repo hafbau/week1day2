@@ -5,4 +5,11 @@
 // * Skips arguments that aint whole number
 // * Do not support whole numbers
 
-va
+var arguments = process.argv;
+var numbers = arguments.slice(2);
+
+function splitArray(nums) {
+  console.log('In SplitArray.nums: ', nums)
+}
+
+splitArray(numbers);
