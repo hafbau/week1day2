@@ -1,7 +1,9 @@
-# Week One: Day Two
---------------------
+#### [Home](index.md "Go Home")   [W1D2](notes.md "Week One Day Two")
 
-## Lecture on Dev Workflow focussing on Debugging and Problem solving:
+# Week One: Day Two
+
+
+## Lecture One: Dev Workflow focussing on Debugging and Problem solving:
 How to work iteratively and incrementally. How to debug. How to manually test your code. Writing clean code.
 
 ### Problem Statement:
