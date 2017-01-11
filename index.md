@@ -45,3 +45,6 @@ How to work iteratively and incrementally. How to debug. How to manually test yo
 - `var` is limited by the functional scope that defines them
 - parameters are limited in the function scope
 - to get rid of a var variable (like garbage collection), set it to `undefined`. In JS this is unnecessary!
+- introducing Array#forEach and how it takes function as argument
+- variable used in a function without the `var` definition gets added to the global scope **after** the function is run
+- scopes have a namespace? **Question:** is scope and namespace interchangeable?
